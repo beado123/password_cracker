@@ -8,3 +8,15 @@ make
 ```
 
 ## Usage
+Create hash and password prefix examples:
+```
+./create_examples [-soln] <count> <min-iter> <max-iter>
+./cracker1 [thread_count] < <password_file>
+./cracker2 [thread_count] < <password_file>
+```
+
+## Testing
+All testfiles are in the inputs folder, try:
+```
+./cracker1 1 < inputs/cracker1.in
+```
